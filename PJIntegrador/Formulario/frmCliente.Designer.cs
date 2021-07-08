@@ -55,7 +55,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -313,21 +312,11 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Nome:";
             // 
-            // groupBox3
-            // 
-            this.groupBox3.Location = new System.Drawing.Point(470, 12);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(449, 220);
-            this.groupBox3.TabIndex = 1;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Formulario Pedido";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(931, 244);
-            this.Controls.Add(this.groupBox3);
+            this.ClientSize = new System.Drawing.Size(475, 244);
             this.Controls.Add(this.groupBox1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -368,7 +357,6 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.ComboBox cmbTipo;
         private System.Windows.Forms.MaskedTextBox txtCep;
-        private System.Windows.Forms.GroupBox groupBox3;
     }
 }
 
